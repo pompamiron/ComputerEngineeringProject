@@ -1,0 +1,18 @@
+{
+    "name": "view/apicer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Chutikarn Sattayapiwat",
+            "email": "view_11509@hotmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.0",
+        "propel/propel": "~2.0@dev",
+        "rakit/validation": "^1.1"
+    },
+    "autoload": {
+        "classmap": ["model/", "config/"]
+    }
+}

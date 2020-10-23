@@ -1,0 +1,7 @@
+$searchDate = "2013-03-01";
+
+$query->usePublicationQuery()
+            ->->filterByPublishedAt(array("min" => $searchDate." 00:00:00", "max" => $searchDate." 23:59:59"))
+            ->endUse();
+
+หาใน1วัน
